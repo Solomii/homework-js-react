@@ -53,7 +53,6 @@ footer {
 }
 
 /*Header*/
-
 .header-box-menu {
   display: flex;
   justify-content: space-between;
@@ -66,7 +65,7 @@ footer {
 }
 
 .header-navigation-menu {
-  margin-right: 250px;
+  margin-right: 50px;
 }
 
 #header-menu-toggle input {
@@ -110,12 +109,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  list-style: none;
   margin-top: 50px;
 }
+
 .header-dot-list:not(:last-child) {
   margin-right: 15px;
 }
+
 .header-dot-btn {
   height: 13px;
   width: 13px;
@@ -184,6 +184,7 @@ footer {
   background-color: #c6c5c9;
   margin: 17px auto 65px;
 }
+
 .main-services-title h3,
 .main-services-title p {
   color: #2f2d35;
@@ -215,13 +216,13 @@ footer {
   border-right: 1px solid #ebebeb;
   border-left: 1px solid #ebebeb;
 }
+
 .service-box:nth-child(1n + 4) {
   padding-top: 20px;
   border-top: 1px solid #ebebeb;
 }
 
 /*Meet our amazing team*/
-
 .team-section {
   background: url(./img/card-copy-teams.png) no-repeat;
   background-size: cover;
@@ -242,10 +243,12 @@ footer {
   font-size: 22px;
   letter-spacing: 0.05em;
 }
+
 .team-box p {
   letter-spacing: 0.075em;
   padding: 10px;
 }
+
 .person-ul {
   text-align: center;
   list-style-type: none;
@@ -382,6 +385,7 @@ footer {
   padding: 50px;
   margin: 1px;
 }
+
 .main-our-happy-client {
   padding: 50px;
 }
@@ -426,6 +430,7 @@ footer {
   padding-top: 50px;
   color: #fff;
 }
+
 .footer-logo-box {
   height: 215px;
   width: 350px;
@@ -494,6 +499,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: #fff;
 }
 
 .footer-navigation {
@@ -505,14 +511,13 @@ footer {
 
 .footer-navigation li {
   margin-right: 20px;
-  color: #fff;
 }
 
 .footer-navigation li:hover {
   color: #00e0d0;
 }
+
 .footer-row-nemu p {
-  color: #fff;
   margin-right: 350px;
   font-weight: 400;
 }
@@ -537,7 +542,6 @@ footer {
   }
 
   /* menuBurger */
-
   #header-menu-toggle {
     display: block;
     position: relative;
@@ -640,7 +644,6 @@ footer {
   }
 
   /* service-expertise */
-
   .service-box:nth-child(2n + 2) {
     padding: 2px;
     border: 1px solid #ebebeb;
@@ -697,6 +700,7 @@ footer {
     max-width: 300px;
     height: 45px;
   }
+
   .box-clients-textares {
     max-width: 300px;
     resize: none;
@@ -704,13 +708,12 @@ footer {
   }
 
   .main-our-happy-client {
-    text-align: center;
     padding: 20px;
   }
 
   /* Footer */
   .footer-row-nemu {
-    text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
